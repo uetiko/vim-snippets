@@ -775,7 +775,7 @@ ${1:FIELDNAME} = forms.ImageField(
 	upload_to="${3:/}",
 	null=${4:True},
 	blank=${5:True},
-	storege=${6:AzureStorage(${7:"nyx"})}
+	storage=${6:AzureStorage(${7:"nyx"})}
 )
 endsnippet
 
@@ -934,7 +934,7 @@ endsnippet
 snippet mfile "FileField" b
 ${1:FIELDNAME} = models.FileField(
 	verbose_name="$2",
-	storege=${3:AzureStorage(${4:"nyx"})},
+	storage=${3:AzureStorage(${4:"nyx"})},
 	null=${5:True},
 	blank=${6:True}
 )
@@ -979,7 +979,7 @@ ${1:FIELDNAME} = models.ImageField(
 	upload_to="${3:/}",
 	null=${4:True},
 	blank=${5:True},
-	storege=${6:AzureStorage(${7:"nyx"})}
+	storage=${6:AzureStorage(${7:"nyx"})}
 )
 endsnippet
 
